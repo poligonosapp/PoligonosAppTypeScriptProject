@@ -16,10 +16,10 @@ it('renders correctly', () => {
 try {
   _._baseFlatten;
 } catch (e) {
-  console.log("App-test.tsx Cannot find module './_baseFlatten'")
+  console.log("App-test.tsx Cannot find module './_baseFlatten'");
 } finally {
-  
+  renderer.create(<App />);
 }
 
-  renderer.create(<App />);
+  
 });
