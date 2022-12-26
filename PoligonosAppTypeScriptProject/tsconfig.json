@@ -2,6 +2,7 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
   "compilerOptions": {
+    "declaration": true,
         "target": "es5",
         "lib": ["es6"],
         "types": ["reflect-metadata"],
